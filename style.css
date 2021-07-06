@@ -11,9 +11,9 @@ h2{
     color: gray;
 
 }
-h3{
+p{
     font-family: 'Noto Sans', sans-serif;
-    font-size: 30px;
+    font-size: 26px;
 }
 .link-button{
     background-image: linear-gradient(rgb(115, 216, 250),rgb(0, 164, 219)); 
@@ -25,7 +25,7 @@ h3{
     font-family: 'Noto Sans', sans-serif;
     font-size: 30px;
 }
-section{
+.flex-container{
     display: flex;
 }
 .width-half{
@@ -45,4 +45,42 @@ section{
     background-repeat: no-repeat;
     background-size: 100% 82.5%;
     
+}
+.recipe-detail{
+    box-shadow: 5px 5px 10px;
+    width: 25%;
+    margin-left:30px ;
+    margin-right: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 20px;
+    
+}
+.recipe-detail img{
+    width: 500px;
+    height: 400px;
+    margin-right: 0 ;
+    padding-left:100px;
+    float: right;
+    padding-top: 20px;
+}
+#text{
+    text-align: center;
+
+}
+footer{
+    margin:0;
+}
+footer p{
+    background-color: rgb(0, 146, 236);
+    text-align: center;
+    height: 300px;
+    padding-top: 100px;
+    font-size: 30px;
+}
+#food-text{
+    color:white;
+}
+footer b{
+    font-size: 40px;
 }
